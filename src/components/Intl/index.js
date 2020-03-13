@@ -1,0 +1,1 @@
+export { CurrencyFormat } from './CurrencyFormat';

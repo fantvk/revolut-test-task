@@ -1,0 +1,16 @@
+@import 'src/styles/variables';
+
+.wrapper {
+  margin: 0 16px;
+}
+
+.breadcrumb {
+  margin: 16px 0;
+}
+
+.content {
+  padding: 24px;
+  min-height: 360px;
+
+  background: $background-color;
+}

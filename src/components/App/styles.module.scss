@@ -1,0 +1,15 @@
+@import 'src/styles/variables';
+
+.app {
+  min-height: 100vh;
+}
+
+.header {
+  padding: 0;
+
+  background: $background-color;
+}
+
+.footer {
+  text-align: center;
+}
