@@ -4,7 +4,7 @@ import { uniqueId } from 'lodash/fp';
 import { HISTORY_TYPE_REVENUE } from 'constants/history';
 
 export const slice = createSlice({
-  name: 'app',
+  name: 'history',
   initialState: {
     entities: [],
   },

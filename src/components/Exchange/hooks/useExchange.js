@@ -1,5 +1,5 @@
 import { useCallback, useMemo, useState, useEffect } from 'react';
-import { has, get } from 'lodash/fp';
+import { has, getOr } from 'lodash/fp';
 import currency from 'currency.js';
 
 function useValueChange(form) {
@@ -36,11 +36,9 @@ function useRates(currentCurrency) {
         try {
           const response = await fetch(`${process.env.REACT_APP_RATES_API_URL}/latest?base=${currentCurrency}`);
           const json = await response.json();
-          const rawRates = get(['rates'], json);
+          const rawRates = getOr({}, ['rates'], json);
 
-          if (currentCurrency === 'EUR') {
-            rawRates.EUR = 1;
-          }
+          rawRates[currentCurrency] = 1;
 
           setRates(rawRates);
         } catch (e) {

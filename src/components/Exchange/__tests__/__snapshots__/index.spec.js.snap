@@ -1,0 +1,650 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Exchange component should render ok 1`] = `
+<div>
+  <main
+    class="ant-layout-content wrapper"
+  >
+    <div
+      class="breadcrumb ant-breadcrumb"
+    >
+      <span>
+        <span
+          class="ant-breadcrumb-link"
+        >
+          App
+        </span>
+        <span
+          class="ant-breadcrumb-separator"
+        >
+          /
+        </span>
+      </span>
+      <span>
+        <span
+          class="ant-breadcrumb-link"
+        >
+          Exchange
+        </span>
+        <span
+          class="ant-breadcrumb-separator"
+        >
+          /
+        </span>
+      </span>
+    </div>
+    <div
+      class="content"
+    >
+      <form
+        class="ant-form ant-form-horizontal"
+        novalidate=""
+      >
+        <div
+          class="ant-row ant-form-item"
+        >
+          <div
+            class="ant-col ant-col-8 ant-col-offset-8 ant-form-item-control"
+          >
+            <div
+              class="ant-form-item-control-input"
+            >
+              <div
+                class="ant-form-item-control-input-content"
+              >
+                <span
+                  class="ant-tag ant-tag-blue"
+                >
+                  <div
+                    class="ant-spin ant-spin-sm ant-spin-spinning"
+                  >
+                    <span
+                      class="ant-spin-dot ant-spin-dot-spin"
+                    >
+                      <i
+                        class="ant-spin-dot-item"
+                      />
+                      <i
+                        class="ant-spin-dot-item"
+                      />
+                      <i
+                        class="ant-spin-dot-item"
+                      />
+                      <i
+                        class="ant-spin-dot-item"
+                      />
+                    </span>
+                  </div>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="ant-row ant-form-item"
+        >
+          <div
+            class="ant-col ant-col-4 ant-col-offset-4 ant-form-item-label"
+          >
+            <label
+              class="ant-form-item-required"
+              for="from"
+              title="From"
+            >
+              From
+            </label>
+          </div>
+          <div
+            class="ant-col ant-col-8 ant-form-item-control"
+          >
+            <div
+              class="ant-form-item-control-input"
+            >
+              <div
+                class="ant-form-item-control-input-content"
+              >
+                <span
+                  class="ant-input-group-wrapper"
+                >
+                  <span
+                    class="ant-input-wrapper ant-input-group"
+                  >
+                    <span
+                      class="ant-input-group-addon"
+                    >
+                      <div
+                        class="ant-select select ant-select-single ant-select-show-arrow"
+                      >
+                        <div
+                          class="ant-select-selector"
+                        >
+                          <span
+                            class="ant-select-selection-search"
+                          >
+                            <input
+                              aria-activedescendant="fromCurrency_list_0"
+                              aria-autocomplete="list"
+                              aria-controls="fromCurrency_list"
+                              aria-haspopup="listbox"
+                              aria-owns="fromCurrency_list"
+                              autocomplete="off"
+                              class="ant-select-selection-search-input"
+                              id="fromCurrency"
+                              readonly=""
+                              role="combobox"
+                              style="opacity: 0;"
+                              value=""
+                            />
+                          </span>
+                          <span
+                            class="ant-select-selection-item"
+                          >
+                            EUR
+                          </span>
+                        </div>
+                        <span
+                          aria-hidden="true"
+                          class="ant-select-arrow"
+                          style="user-select: none;"
+                          unselectable="on"
+                        >
+                          <span
+                            aria-label="down"
+                            class="anticon anticon-down"
+                            role="img"
+                          >
+                            <svg
+                              aria-hidden="true"
+                              class=""
+                              data-icon="down"
+                              fill="currentColor"
+                              focusable="false"
+                              height="1em"
+                              viewBox="64 64 896 896"
+                              width="1em"
+                            >
+                              <path
+                                d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                              />
+                            </svg>
+                          </span>
+                        </span>
+                      </div>
+                    </span>
+                    <input
+                      class="ant-input"
+                      id="from"
+                      max="0"
+                      min="0.01"
+                      step="0.01"
+                      type="number"
+                      value=""
+                    />
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div
+              class="ant-form-item-extra"
+            >
+              You have 
+              €0.00
+            </div>
+          </div>
+        </div>
+        <div
+          class="ant-row ant-form-item"
+        >
+          <div
+            class="ant-col ant-col-4 ant-col-offset-4 ant-form-item-label"
+          >
+            <label
+              class="ant-form-item-required"
+              for="to"
+              title="To"
+            >
+              To
+            </label>
+          </div>
+          <div
+            class="ant-col ant-col-8 ant-form-item-control"
+          >
+            <div
+              class="ant-form-item-control-input"
+            >
+              <div
+                class="ant-form-item-control-input-content"
+              >
+                <span
+                  class="ant-input-group-wrapper"
+                >
+                  <span
+                    class="ant-input-wrapper ant-input-group"
+                  >
+                    <span
+                      class="ant-input-group-addon"
+                    >
+                      <div
+                        class="ant-select select ant-select-single ant-select-show-arrow"
+                      >
+                        <div
+                          class="ant-select-selector"
+                        >
+                          <span
+                            class="ant-select-selection-search"
+                          >
+                            <input
+                              aria-activedescendant="toCurrency_list_0"
+                              aria-autocomplete="list"
+                              aria-controls="toCurrency_list"
+                              aria-haspopup="listbox"
+                              aria-owns="toCurrency_list"
+                              autocomplete="off"
+                              class="ant-select-selection-search-input"
+                              id="toCurrency"
+                              readonly=""
+                              role="combobox"
+                              style="opacity: 0;"
+                              value=""
+                            />
+                          </span>
+                          <span
+                            class="ant-select-selection-item"
+                          >
+                            USD
+                          </span>
+                        </div>
+                        <span
+                          aria-hidden="true"
+                          class="ant-select-arrow"
+                          style="user-select: none;"
+                          unselectable="on"
+                        >
+                          <span
+                            aria-label="down"
+                            class="anticon anticon-down"
+                            role="img"
+                          >
+                            <svg
+                              aria-hidden="true"
+                              class=""
+                              data-icon="down"
+                              fill="currentColor"
+                              focusable="false"
+                              height="1em"
+                              viewBox="64 64 896 896"
+                              width="1em"
+                            >
+                              <path
+                                d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                              />
+                            </svg>
+                          </span>
+                        </span>
+                      </div>
+                    </span>
+                    <input
+                      class="ant-input"
+                      id="to"
+                      min="0.01"
+                      step="0.01"
+                      type="number"
+                      value=""
+                    />
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div
+              class="ant-form-item-extra"
+            >
+              You have 
+              $0.00
+            </div>
+          </div>
+        </div>
+        <div
+          class="ant-row ant-form-item"
+        >
+          <div
+            class="ant-col ant-col-8 ant-col-offset-8 ant-form-item-control"
+          >
+            <div
+              class="ant-form-item-control-input"
+            >
+              <div
+                class="ant-form-item-control-input-content"
+              >
+                <button
+                  class="ant-btn ant-btn-primary"
+                  type="submit"
+                >
+                  <span>
+                    Exchange
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </main>
+</div>
+`;
+
+exports[`Exchange component should render ok 2`] = `
+<div>
+  <main
+    class="ant-layout-content wrapper"
+  >
+    <div
+      class="breadcrumb ant-breadcrumb"
+    >
+      <span>
+        <span
+          class="ant-breadcrumb-link"
+        >
+          App
+        </span>
+        <span
+          class="ant-breadcrumb-separator"
+        >
+          /
+        </span>
+      </span>
+      <span>
+        <span
+          class="ant-breadcrumb-link"
+        >
+          Exchange
+        </span>
+        <span
+          class="ant-breadcrumb-separator"
+        >
+          /
+        </span>
+      </span>
+    </div>
+    <div
+      class="content"
+    >
+      <form
+        class="ant-form ant-form-horizontal"
+        novalidate=""
+      >
+        <div
+          class="ant-row ant-form-item"
+        >
+          <div
+            class="ant-col ant-col-8 ant-col-offset-8 ant-form-item-control"
+          >
+            <div
+              class="ant-form-item-control-input"
+            >
+              <div
+                class="ant-form-item-control-input-content"
+              >
+                <span
+                  class="ant-tag ant-tag-blue"
+                >
+                  €1.00
+                   = 
+                  $1.10
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="ant-row ant-form-item"
+        >
+          <div
+            class="ant-col ant-col-4 ant-col-offset-4 ant-form-item-label"
+          >
+            <label
+              class="ant-form-item-required"
+              for="from"
+              title="From"
+            >
+              From
+            </label>
+          </div>
+          <div
+            class="ant-col ant-col-8 ant-form-item-control"
+          >
+            <div
+              class="ant-form-item-control-input"
+            >
+              <div
+                class="ant-form-item-control-input-content"
+              >
+                <span
+                  class="ant-input-group-wrapper"
+                >
+                  <span
+                    class="ant-input-wrapper ant-input-group"
+                  >
+                    <span
+                      class="ant-input-group-addon"
+                    >
+                      <div
+                        class="ant-select select ant-select-single ant-select-show-arrow"
+                      >
+                        <div
+                          class="ant-select-selector"
+                        >
+                          <span
+                            class="ant-select-selection-search"
+                          >
+                            <input
+                              aria-activedescendant="fromCurrency_list_0"
+                              aria-autocomplete="list"
+                              aria-controls="fromCurrency_list"
+                              aria-haspopup="listbox"
+                              aria-owns="fromCurrency_list"
+                              autocomplete="off"
+                              class="ant-select-selection-search-input"
+                              id="fromCurrency"
+                              readonly=""
+                              role="combobox"
+                              style="opacity: 0;"
+                              value=""
+                            />
+                          </span>
+                          <span
+                            class="ant-select-selection-item"
+                          >
+                            EUR
+                          </span>
+                        </div>
+                        <span
+                          aria-hidden="true"
+                          class="ant-select-arrow"
+                          style="user-select: none;"
+                          unselectable="on"
+                        >
+                          <span
+                            aria-label="down"
+                            class="anticon anticon-down"
+                            role="img"
+                          >
+                            <svg
+                              aria-hidden="true"
+                              class=""
+                              data-icon="down"
+                              fill="currentColor"
+                              focusable="false"
+                              height="1em"
+                              viewBox="64 64 896 896"
+                              width="1em"
+                            >
+                              <path
+                                d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                              />
+                            </svg>
+                          </span>
+                        </span>
+                      </div>
+                    </span>
+                    <input
+                      class="ant-input"
+                      id="from"
+                      max="0"
+                      min="0.01"
+                      step="0.01"
+                      type="number"
+                      value=""
+                    />
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div
+              class="ant-form-item-extra"
+            >
+              You have 
+              €0.00
+            </div>
+          </div>
+        </div>
+        <div
+          class="ant-row ant-form-item ant-form-item-has-success"
+        >
+          <div
+            class="ant-col ant-col-4 ant-col-offset-4 ant-form-item-label"
+          >
+            <label
+              class="ant-form-item-required"
+              for="to"
+              title="To"
+            >
+              To
+            </label>
+          </div>
+          <div
+            class="ant-col ant-col-8 ant-form-item-control"
+          >
+            <div
+              class="ant-form-item-control-input"
+            >
+              <div
+                class="ant-form-item-control-input-content"
+              >
+                <span
+                  class="ant-input-group-wrapper"
+                >
+                  <span
+                    class="ant-input-wrapper ant-input-group"
+                  >
+                    <span
+                      class="ant-input-group-addon"
+                    >
+                      <div
+                        class="ant-select select ant-select-single ant-select-show-arrow"
+                      >
+                        <div
+                          class="ant-select-selector"
+                        >
+                          <span
+                            class="ant-select-selection-search"
+                          >
+                            <input
+                              aria-activedescendant="toCurrency_list_0"
+                              aria-autocomplete="list"
+                              aria-controls="toCurrency_list"
+                              aria-haspopup="listbox"
+                              aria-owns="toCurrency_list"
+                              autocomplete="off"
+                              class="ant-select-selection-search-input"
+                              id="toCurrency"
+                              readonly=""
+                              role="combobox"
+                              style="opacity: 0;"
+                              value=""
+                            />
+                          </span>
+                          <span
+                            class="ant-select-selection-item"
+                          >
+                            USD
+                          </span>
+                        </div>
+                        <span
+                          aria-hidden="true"
+                          class="ant-select-arrow"
+                          style="user-select: none;"
+                          unselectable="on"
+                        >
+                          <span
+                            aria-label="down"
+                            class="anticon anticon-down"
+                            role="img"
+                          >
+                            <svg
+                              aria-hidden="true"
+                              class=""
+                              data-icon="down"
+                              fill="currentColor"
+                              focusable="false"
+                              height="1em"
+                              viewBox="64 64 896 896"
+                              width="1em"
+                            >
+                              <path
+                                d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                              />
+                            </svg>
+                          </span>
+                        </span>
+                      </div>
+                    </span>
+                    <input
+                      class="ant-input"
+                      id="to"
+                      min="0.01"
+                      step="0.01"
+                      type="number"
+                      value=""
+                    />
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div
+              class="ant-form-item-extra"
+            >
+              You have 
+              $0.00
+            </div>
+          </div>
+        </div>
+        <div
+          class="ant-row ant-form-item"
+        >
+          <div
+            class="ant-col ant-col-8 ant-col-offset-8 ant-form-item-control"
+          >
+            <div
+              class="ant-form-item-control-input"
+            >
+              <div
+                class="ant-form-item-control-input-content"
+              >
+                <button
+                  class="ant-btn ant-btn-primary"
+                  type="submit"
+                >
+                  <span>
+                    Exchange
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </main>
+</div>
+`;
